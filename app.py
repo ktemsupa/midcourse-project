@@ -77,4 +77,5 @@ def update_output(value:str) -> dict:
 
 #### Deploy ####
 
-app.run_server(port=8051)
+if __name__ == '__main__':
+    app.run_server(debug=True)
