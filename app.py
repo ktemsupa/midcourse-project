@@ -28,7 +28,7 @@ def get_random_data(num:int = 10) -> list:
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 
 #### Set Up The Layout ####
 app.layout = html.Div(
